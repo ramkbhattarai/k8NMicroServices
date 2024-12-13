@@ -1,0 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=learnk8s
+resources:
+  - mysql-deploy.yaml
+  - login-app-deploy.yaml
